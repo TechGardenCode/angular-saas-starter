@@ -5,12 +5,12 @@
 
 This is a boilerplate template for building an Angular application. It provides an opinionated implementation for default application behaviors, such as auth, payment, and project structure to quickly bootstrap and start development
 
-**Demo: [{{DEMO_URL}}]({{DEMO_URL}})**
+**Demo: [https://www.angular-saas-starter.techgarden.gg/](https://www.angular-saas-starter.techgarden.gg/)**
 
 <details>
   <summary>Summary Text</summary>
   
-  Summary Description
+  Short description about why I build this project...
 
 </details>
 
