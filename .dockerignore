@@ -1,0 +1,8 @@
+.git
+node_modules/
+.editorconfig
+.gitignore
+Dockerfile
+.dockerignore
+README.md
+e2e/
