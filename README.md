@@ -1,27 +1,68 @@
-# AngularSaasStarter
+# Angular SaaS Starter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+> [!IMPORTANT]  
+> This repo is WIP. Breaking changes may be introduced without warning. Please raise an issue if you see something wrong!
 
-## Development server
+This is a boilerplate template for building an Angular application. It provides an opinionated implementation for default application behaviors, such as auth, payment, and project structure to quickly bootstrap and start development
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Demo: [{{DEMO_URL}}]({{DEMO_URL}})**
 
-## Code scaffolding
+<details>
+  <summary>Summary Text</summary>
+  
+  Summary Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+</details>
 
-## Build
+## Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Up-To-Date Angular Versioning
+- TailwindCSS Fully Configured
+- Design Token Based UI System
+- Basic OAuth Implementation
+- Auth Guards to Protect Private Routes
+- Github Actions to Automate CI/CD
 
-## Running unit tests
+## Tech Stack
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **UI Framework**: [Angular](https://angular.dev/)
+- **CSS Framework**: [tailwindcss](https://tailwindcss.com/)
+- **UI LIbrary**: [spartan/ui](https://www.spartan.ng/)
 
-## Running end-to-end tests
+## Getting Started
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+git clone https://github.com/techgardencode/angular-saas-starter
+npm install
+```
 
-## Further help
+## Running Locally
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Once you have cloned the repo and installed dependencies, run the development server:
+
+```bash
+npm run start
+```
+
+Open [http://localhost:4200](http://localhost:4200) in your browser to see the app in action.
+
+## Going to Production
+
+When you're ready to deploy your SaaS application to production, follow these steps:
+
+### Test the app builds locally
+
+```bash
+npm run test
+npm run build:prod
+```
+
+### Push your code/raise a PR to the 'main' branch
+
+```bash
+git push -u origin main
+```
+
+### Wait for CI to complete
+
+CI will run through all unit tests and create a build that can be ingested using your CD platform of choice
